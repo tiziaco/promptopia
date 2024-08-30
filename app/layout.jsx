@@ -28,25 +28,4 @@ const RootLayout = ({ children }) => (
 	</html>
  );
 
-
-// async function RootLayout(children) {
-// 	const session = await getServerSession(authOptions)
-//   return (
-// 	<html lang='en'>
-// 	<body>
-// 	  <Provider>
-// 		 <div className='main'>
-// 			<div className='gradient' />
-// 		 </div>
-
-// 		 <main className='app'>
-// 			<Nav />
-// 			{children}
-// 		 </main>
-// 	  </Provider>
-// 	</body>
-//  </html>
-//   )
-// }
-
 export default RootLayout
